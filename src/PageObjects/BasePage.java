@@ -98,7 +98,7 @@ public class BasePage {
         return true;
     }
 */
-
+////
     //one
     By allArticlesOne = By.cssSelector("div.leagues-right-column");
 
