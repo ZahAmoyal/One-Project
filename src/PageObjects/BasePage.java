@@ -180,6 +180,7 @@ public class BasePage {
             System.out.println("-------------------------------");
             System.out.println("One");
             System.out.println(check);
+            System.out.println("מספר הכתבה הוא:" + (i+1));
             WebElement webb = driver.findElement(allArticlesOne);
             try {
                 List<WebElement> articlesb = webb.findElements(By.tagName("a"));
